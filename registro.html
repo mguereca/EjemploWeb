@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tamales OnLine - Seccion Tamales</title>
+        <title>Tamales OnLine</title>
         <meta charset="windows-874">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div id="logo">
             <img src="images/logo.png" alt="TamalesOL"/>
-            <h3> Tu mejor opcion para comprar.</h3>
+            <h3> Registrate</h3>
         </div>
         <div id="menu">
             <ul>
@@ -30,22 +30,28 @@
             </div>
         </div>
         <div id="contenido"> 
-            <div id="info1">
-                <p lang="es">
-                Estas en la seccion de tamales.
-                </p>   
-            </div> 
-            <div id="info2">
-                <p lang="es">
-                Informacion 2 
-                </p>   
-            </div>
-            <div id="info3">
-                <p lang="es">
-                Informacion 3
-                </p>   
-            </div>
-            
+            <h1>Registro</h1>
+            <form action="guardar.php" method="post">
+            <table>
+                <tr>
+                   <td>E-mail:</td>
+                   <td><input type="email" name="email" id="email" /></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="pass1" id="pass1" /></td>
+                </tr>
+                <tr>
+                    <td>Verificar Password:</td>
+                    <td><input type="password" name="pass2" id="pass2" /></td>
+                </tr>
+                
+                <tr>
+                    <td> </td>
+                    <td><input type="submit" value="Registrar"/></td>
+                </tr>
+            </table>
+            </form>
         </div>
         <div id="footer">
             <ul>
